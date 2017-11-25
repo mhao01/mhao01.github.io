@@ -36,8 +36,152 @@ a:link, a:visited, a:hover, a:active {
 	padding: 22px 24px 18px;
 	position: absolute;
 	top:0;
-	font-size: 20px;
+}
+
+#navbar-name-text{
+	text-decoration: None;
+	font-size:22px;
 	font-color: #F4FAFF;
+}
+
+#navbar-menu{
+	right : 0;
+	float: right;
+	position: relative;
+	transition: right ls ease;
+	padding: 0px 15px;
+}
+
+.button:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navbar-menu-item{
+	float:left;
+	display: block;
+	font-weight: 500;
+	height: 16px;
+	line-height: 16px;
+	text-decoration: none;
+	padding: 24px 5px;
+	transition: color 0.3s ease;
+	font-size:18px;
+	color: #F4FAFF;;
+}
+
+.section{
+	width: 100%;
+	height: 850px;
+	position:relative;
+}
+
+/*.sub-section{
+	padding-top: 64px;
+}*/
+
+#main-section{
+	background-color:#8ED2DB;
+}
+
+#name-text{
+	font-size: 100px;
+	color: #F4FAFF;
+	margin:auto;
+	position: absolute;
+	top:50%;
+	left: 4%;
+}
+
+.sub-section{
+	display:flex;
+	/*padding-top: 64px;*/
+	/*height:100%;*/
+}
+
+.left-section{
+	float: left;
+	width: 27%;
+	/*background-color: green;*/
+	padding: 16% 6% 7% 6%;
+}
+
+.middle-section{
+	float:left;
+	width: 5%;
+	height:100%;
+	/*background-color: black;*/
+}
+
+.middle-bar{
+	/*background-color: white;*/
+	width: 5%;
+	height:75%;
+	position: relative;
+	margin: 367% 0% 0% 45%;
+}
+
+#light-bar{
+	background-color:#F4FAFF;
+}
+
+#dark-bar{
+	background-color: rgba(81, 74, 70, 0.6);
+}
+
+.right-section{
+	float:right;
+	width:66%;
+	padding: 16% 6% 15% 2%;
+	/*background-color: gray;
+*/}
+
+.text-container{
+	width: 100%;
+	height:100%;
+	position:relative;
+	/*top, right bottom left*/
+	/*background-color: blue;*/
+}
+
+#about-section, #projects-section{
+	background-color: #F4FAFF;
+	color: rgba(81, 74, 70, 0.6);
+}
+
+#contact-section{
+	background-color:#8ED2DB;
+	color: #F4FAFF;
+}
+
+.photo-container{
+	width: 100%;
+	height:42%;
+	top: 0%;
+	position:relative;
+	/*top, right bottom left*/
+	/*background-color: blue;*/
+	margin: 0% 0% 0% 0%;
+	border-radius: 1000px;
+	background-color: rgba(81, 74, 70, 0.6);
+}
+
+#project-photo{
+	border-radius: 0px;
+}
+
+.title-text{
+	font-size: 37px;
+	font-weight: bold;
+}
+
+.paragraph-text{
+	font-size:18px;
+	margin-top: 10px;
+}
+
+
+
 }
 
 
