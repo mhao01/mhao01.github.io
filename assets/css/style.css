@@ -13,6 +13,14 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none; color: #F4FAFF;
 }
 
+ul{
+	margin-top: 5px;
+}
+
+img{
+	max-height: 100%;
+}
+
 .navbar-container{
 	position:fixed;
 	top: 0;	
@@ -154,6 +162,12 @@ a:link, a:visited, a:hover, a:active {
 	color: rgba(81, 74, 70, 0.6);
 }
 
+#about-photo img{
+	max-height: 100%;
+    margin-top: 0%;
+    margin-left: -28%;
+}
+
 #contact-section{
 	background-color:#8ED2DB;
 	color: #F4FAFF;
@@ -169,10 +183,11 @@ a:link, a:visited, a:hover, a:active {
 	margin: auto;
 	border-radius: 1000px;
 	background-color: rgba(81, 74, 70, 0.6);
+	overflow: hidden;
 }
 
 #project-photo{
-	border-radius: 0px;
+	/*border-radius: 0px;*/
 }
 
 .title-text{
@@ -189,6 +204,36 @@ a:link, a:visited, a:hover, a:active {
 	height: 500px;
 }
 
+.project-container{
+	margin-bottom: 5% 
+	margin-top: 2%;
+}
+
+.project-title{
+	font-size: 22px;
+}
+
+.project-description{
+	font-size: 16px;
+}
+
+.project-container:hover{
+	font-style: italic;
+	cursor: pointer;
+}
+
+#contact-photo{
+	background-color: #F4FAFF;
+}
+
+#contact-title{
+	font-size: 60px;
+    margin-top: 10%;
+}
+
+.contact-email{
+	font-size: 22px;
+}
 
 
 }

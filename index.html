@@ -29,11 +29,11 @@
 		</div>
 		
 		<div id = "navbar-menu"> 
-			<div class = "navbar-menu-item button" id = "about-button"> about </div>
+			<div class = "navbar-menu-item button aboutb" id = "about-button"> about </div>
 			<div class = "navbar-menu-item" id = "navbar-seperator"> | </div>
-			<div class = "navbar-menu-item button" id = "resume-button"> resume </div>
+			<div class = "navbar-menu-item button projectsb" id = "projects-button"> projects </div>
 			<div class = "navbar-menu-item" id = "navbar-seperator"> | </div>
-			<div class = "navbar-menu-item button" id = "contact-button"> contact me </div>
+			<div class = "navbar-menu-item button contactb" id = "contact-button"> contact me </div>
 		</div>
 	</nav>
 
@@ -43,15 +43,17 @@
 			<div class = "left-section">
 				<div class = "photo-container" id = "about-photo">
 					<!--photo goes here, will be cropped to round though -->
+					<img src="assets/img/profile.jpg">
 				</div>
 			</div>
 			<div class = "middle-section"> <div class = middle-bar  id = "dark-bar"> </div> </div>
 			<div class = "right-section">
 				<div class = "text-container" id = "about-content"> 
 					<div class = "title-text" id = "about-title"> ABOUT ME </div>
-					<div class = "paragraph-text" id = "about-paragraph"> Lorem ipsum dolor sit amet, ei nec velit mandamus recteque, an elitr nihil sed. Omnes audire convenire vis an, civibus vulputate eum in, inani movet ubique vel ea. Ut legere labore feugiat nam, vix ei altera partiendo, ut tation lucilius salutatus eos. Ad est saepe oblique commune, cu mei wisi legimus verterem.
-
-Quis inani ea vel, illum quaestio antiopam eum ut. Quas essent maiorum at his, eam ex iudico dicunt, id suas erat sed. Audiam officiis vis ei, wisi ludus corpora te quo, ea usu perfecto deseruisse. Est te agam rationibus efficiendi. Et fabellas scribentur sed, has case detracto ex, urbanitas disputando voluptatibus per at. </div>
+					<div class = "paragraph-text" id = "about-paragraph"> 
+						<p>Hi I'm Michelle! I'm a second year computer science major at UC Berkeley. I'm originally from Maryland and I love learning new/random things </p>
+						<p> In my spare time, I love trying out new recipes, lifting heavy things, watching things that make people laugh, and volunteering with Habitat for Humanity. I also spend way too much time thinking about food. </p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -59,6 +61,7 @@ Quis inani ea vel, illum quaestio antiopam eum ut. Quas essent maiorum at his, e
 		<section class = "section sub-section" id = "projects-section"> 
 			<div class = "left-section">
 				<div class = "photo-container" id = "project-photo">
+					<img src="assets/img/coming_soon.jpg">
 				</div>
 				<div class = "project-info"> 
 					<div class = "project-title"> </div>
@@ -70,22 +73,35 @@ Quis inani ea vel, illum quaestio antiopam eum ut. Quas essent maiorum at his, e
 				<div class = "text-container" id = "project-content"> 
 					<div class = "title-text" id = "project-title"> PROJECTS </div>
 					<div class = "project-container"> 
-						<div class = "project-title"> </div>
-						<div class = "project-description"> </div>
-					</div>
-					</div><div class = "project-container"> 
-						<div class = "project-title"> </div>
-						<div class = "project-description"> </div>
+						<div class = "project-title"> Research Assistant @ REFM lab</div>
+						<div class = "project-description"> <ul>
+							<li> Designed and optimized a matching algorithm for US mortgage and property data from 2000 to 2016. </li>
+							<li> Parsed and serialized raw mortgage data in PostgresSQL. </li>
+							<li> Used Python to implement the matching algorithm by applying a k-nearest-neighbors approach with a custom metrics function </li>
+						 </ul> </div>
 					</div>
 					<div class = "project-container"> 
-						<div class = "project-title"> </div>
-						<div class = "project-description"> </div>
+						<div class = "project-title"> Course Tutor </div>
+						<div class = "project-description"> <ul>
+							<li> Led weekly small group discussion sessions for the introductory computer science course  at UC Berkeley (CS 61A) </li>
+							<li> Taught concepts using Python, SQL, and Lisp in order to solidify the students’ understanding. </li>
+							<li> Helped proctor and grade exams as well as review course material </li>
+						 </ul> </div>
+					</div>
+					<div class = "project-container"> 
+						<div class = "project-title"> Habitat for Humanity: Special Events </div>
+						<div class = "project-description"> <ul>
+							<li> Worked with the local Habitat organization to plan a service event for low income families </li>
+							<li> Organized over 40 volunteers to help design and build playhouses for the children </li>
+							<li> Collaborated with the school and local businesses for food and monetary donations </li>
+						 </ul> </div>
 					</div>
 					<div class = "project-container"> 
 						<div class = "project-title"> </div>
 						<div class = "project-description"> </div>
 					</div>
 				</div>
+			</div>
 		</section>
 
 		<section class = "section sub-section" id = "contact-section"> 
